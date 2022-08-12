@@ -6,7 +6,7 @@ btn.onclick = function(){
 
     var mp3link = document.getElementById("mp3_link").src;
 
-    var mp3_link = "http://yt-download.org/api/single/mp3?url="+ urlLink;
+    var mp3_link = "https://yt-download.org/api/single/mp3?url="+ urlLink;
 
 
     var new_src = '<iframe id="mp3_link" src="'+mp3_link+'" width="50%" height="50%" allowtransparency="true" scrolling="no" style="border:none"></iframe>';
